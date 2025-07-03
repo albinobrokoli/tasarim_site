@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "theme": "cosmic-cinematic",
+    "description": "Motion design tokens for orbital ellipses, cosmic particles, and cinematic interactions",
+    "updated": "2024-12-19"
+  },
+  "easing": {
+    "standard": {
+      "linear": "linear",
+      "ease": "ease",
+      "ease-in": "ease-in", 
+      "ease-out": "ease-out",
+      "ease-in-out": "ease-in-out"
+    },
+    "cubic-bezier": {
+      "smooth": "cubic-bezier(0.25, 0.8, 0.25, 1)",
+      "bounce": "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+      "spring": "cubic-bezier(0.16, 0.84, 0.44, 1)",
+      "out-quart": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "in-quart": "cubic-bezier(0.5, 0, 0.75, 0)",
+      "cinematic": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "organic": "cubic-bezier(0.23, 1, 0.32, 1)"
+    }
+  },
+  "duration": {
+    "instant": "0ms",
+    "fast": "150ms",
+    "normal": "300ms", 
+    "medium": "500ms",
+    "slow": "700ms",
+    "slower": "1000ms",
+    "slowest": "1500ms"
+  },
+  "orbital": {
+    "durations": {
+      "ring-1": "20s",
+      "ring-2": "25s", 
+      "ring-3": "30s",
+      "background-drift": "60s"
+    },
+    "directions": {
+      "ring-1": "normal",
+      "ring-2": "reverse",
+      "ring-3": "normal"
+    },
+    "easing": "linear",
+    "iteration": "infinite",
+    "fill-mode": "both"
+  },
+  "hero": {
+    "text-reveal": {
+      "duration": "1s",
+      "easing": "ease-out",
+      "delay-between-lines": "300ms",
+      "stagger-words": "100ms"
+    },
+    "glass-appear": {
+      "duration": "1.5s",
+      "easing": "ease-out", 
+      "delay": "500ms",
+      "scale-from": "0.9",
+      "blur-from": "10px"
+    },
+    "glow-pulse": {
+      "duration": "4s",
+      "easing": "ease-in-out",
+      "iteration": "infinite",
+      "opacity-range": "0.3 to 0.6",
+      "scale-range": "1 to 1.1"
+    }
+  },
+  "particles": {
+    "movement": {
+      "speed-range": "0.2 to 0.7",
+      "connection-distance": "100px",
+      "life-span": "50 to 150 frames",
+      "fade-in-out": "linear"
+    },
+    "rendering": {
+      "fps-target": "60fps",
+      "adaptive-quality": true,
+      "performance-threshold": "30fps",
+      "max-particles": "100",
+      "min-particles": "30"
+    }
+  },
+  "interactions": {
+    "hover": {
+      "duration": "300ms",
+      "easing": "smooth",
+      "scale": "1.05",
+      "translate-y": "-4px",
+      "glow-intensity": "1.2x"
+    },
+    "active": {
+      "duration": "150ms", 
+      "easing": "ease-in",
+      "scale": "0.97",
+      "translate-y": "1px"
+    },
+    "focus": {
+      "duration": "200ms",
+      "easing": "ease-out",
+      "outline-width": "2px",
+      "outline-offset": "2px",
+      "glow-spread": "8px"
+    }
+  },
+  "navigation": {
+    "scroll-adaptation": {
+      "duration": "500ms",
+      "easing": "smooth",
+      "background-blur": "20px to 30px",
+      "opacity": "0.8 to 0.95"
+    },
+    "link-hover": {
+      "duration": "300ms",
+      "easing": "ease-out",
+      "underline-width": "0% to 100%"
+    }
+  },
+  "cards": {
+    "hover": {
+      "duration": "500ms",
+      "easing": "smooth",
+      "translate-y": "-8px",
+      "scale": "1.02",
+      "backdrop-blur": "10px to 15px",
+      "glow-opacity": "0 to 1"
+    },
+    "entrance": {
+      "duration": "700ms",
+      "easing": "out-quart",
+      "translate-y": "30px to 0",
+      "opacity": "0 to 1",
+      "stagger-delay": "150ms"
+    }
+  },
+  "integration": {
+    "code-change": {
+      "duration": "300ms",
+      "easing": "ease-in-out",
+      "fade-out": "150ms",
+      "fade-in": "150ms",
+      "translate-y": "10px"
+    },
+    "chain-selector": {
+      "duration": "200ms",
+      "easing": "ease-out",
+      "border-glow": "smooth transition"
+    }
+  },
+  "accessibility": {
+    "reduced-motion": {
+      "override-duration": "0.01ms",
+      "disable-infinite": true,
+      "preserve-essential": true
+    },
+    "focus-indicators": {
+      "duration": "200ms",
+      "easing": "ease-out",
+      "outline-style": "solid"
+    }
+  },
+  "responsive": {
+    "mobile": {
+      "particle-count-reduction": "50%",
+      "animation-simplification": true,
+      "orbital-scale": "0.8x"
+    },
+    "tablet": {
+      "particle-count-reduction": "25%",
+      "orbital-scale": "0.9x"
+    },
+    "desktop": {
+      "full-experience": true,
+      "enhanced-effects": true
+    }
+  },
+  "performance": {
+    "fps-monitoring": {
+      "sample-rate": "60fps",
+      "adaptation-threshold": "30fps",
+      "quality-levels": ["minimal", "reduced", "standard", "enhanced"]
+    },
+    "memory-management": {
+      "particle-cleanup": "automatic",
+      "canvas-optimization": true,
+      "request-animation-frame": true
+    }
+  },
+  "transitions": {
+    "page-load": {
+      "hero-reveal": {
+        "sequence": [
+          "cosmic-background: 0ms",
+          "orbital-rings: 200ms", 
+          "text-reveal: 500ms",
+          "glass-card: 1000ms",
+          "particles: 1500ms"
+        ]
+      }
+    },
+    "scroll-sections": {
+      "intersection-threshold": "0.2",
+      "entrance-delay": "100ms",
+      "stagger-children": "150ms"
+    }
+  },
+  "special-effects": {
+    "orbital-glow": {
+      "filter": "drop-shadow(0 0 10px rgba(139, 92, 246, 0.8))",
+      "animation": "continuous",
+      "gpu-acceleration": true
+    },
+    "cosmic-drift": {
+      "duration": "60s",
+      "easing": "ease-in-out", 
+      "infinite": true,
+      "subtle-movement": "2-3px range"
+    },
+    "glass-refraction": {
+      "backdrop-filter": "blur(20px)",
+      "border-shimmer": "subtle gradient shift",
+      "interaction-response": "immediate"
+    }
+  }
+} 

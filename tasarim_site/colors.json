@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "theme": "cosmic-cinematic",
+    "description": "Quadrata Passport cosmic theme with orbital elements and deep space aesthetics",
+    "updated": "2024-12-19"
+  },
+  "colors": {
+    "primary": {
+      "electric-purple": "#8B5CF6",
+      "electric-purple-light": "#A855F7",
+      "electric-purple-dark": "#7C3AED",
+      "electric-purple-50": "rgba(139, 92, 246, 0.5)",
+      "electric-purple-20": "rgba(139, 92, 246, 0.2)",
+      "electric-purple-10": "rgba(139, 92, 246, 0.1)"
+    },
+    "secondary": {
+      "neon-blue": "#3B82F6",
+      "neon-blue-light": "#60A5FA", 
+      "neon-blue-dark": "#2563EB",
+      "neon-blue-50": "rgba(59, 130, 246, 0.5)",
+      "neon-blue-20": "rgba(59, 130, 246, 0.2)",
+      "neon-blue-10": "rgba(59, 130, 246, 0.1)"
+    },
+    "accent": {
+      "cosmic-purple": "#6366F1",
+      "cosmic-purple-light": "#818CF8",
+      "cosmic-purple-dark": "#4F46E5",
+      "cosmic-purple-50": "rgba(99, 102, 241, 0.5)",
+      "cosmic-purple-20": "rgba(99, 102, 241, 0.2)",
+      "cosmic-purple-10": "rgba(99, 102, 241, 0.1)"
+    },
+    "neutrals": {
+      "void-darker": "#050508",
+      "void-dark": "#0A0A0F",
+      "void-medium": "#13131E",
+      "void-light": "#1F1F2E",
+      "gray-900": "#111827",
+      "gray-800": "#1F2937",
+      "gray-700": "#374151",
+      "gray-600": "#4B5563",
+      "gray-500": "#6B7280",
+      "gray-400": "#9CA3AF",
+      "gray-300": "#D1D5DB",
+      "gray-200": "#E5E7EB",
+      "gray-100": "#F3F4F6",
+      "white": "#FFFFFF"
+    },
+    "glass": {
+      "glass-white": "rgba(255, 255, 255, 0.1)",
+      "glass-white-light": "rgba(255, 255, 255, 0.15)",
+      "glass-white-strong": "rgba(255, 255, 255, 0.2)",
+      "glass-border": "rgba(255, 255, 255, 0.2)",
+      "glass-border-light": "rgba(255, 255, 255, 0.1)",
+      "glass-border-strong": "rgba(255, 255, 255, 0.3)",
+      "glass-shadow": "rgba(0, 0, 0, 0.3)"
+    },
+    "gradients": {
+      "primary-gradient": "linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%)",
+      "secondary-gradient": "linear-gradient(135deg, #3B82F6 0%, #6366F1 100%)",
+      "cosmic-gradient": "radial-gradient(ellipse at center, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.1) 25%, rgba(10, 10, 15, 0.8) 50%, rgba(5, 5, 8, 1) 100%)",
+      "orbital-gradient-1": "linear-gradient(90deg, #8B5CF6 0%, #3B82F6 50%, #8B5CF6 100%)",
+      "orbital-gradient-2": "linear-gradient(90deg, #3B82F6 0%, #6366F1 100%)",
+      "orbital-gradient-3": "linear-gradient(90deg, #6366F1 0%, #8B5CF6 100%)",
+      "glow-gradient": "radial-gradient(circle, var(--color) 0%, transparent 70%)"
+    },
+    "semantic": {
+      "success": "#10B981",
+      "success-light": "#34D399",
+      "success-dark": "#059669",
+      "warning": "#F59E0B", 
+      "warning-light": "#FBBF24",
+      "warning-dark": "#D97706",
+      "error": "#EF4444",
+      "error-light": "#F87171", 
+      "error-dark": "#DC2626",
+      "info": "#3B82F6",
+      "info-light": "#60A5FA",
+      "info-dark": "#2563EB"
+    },
+    "special": {
+      "text-gradient": "linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%)",
+      "cosmic-glow": "0 0 30px rgba(139, 92, 246, 0.5)",
+      "neon-glow": "0 0 20px rgba(59, 130, 246, 0.6)",
+      "purple-glow": "0 0 25px rgba(99, 102, 241, 0.4)",
+      "orbital-glow": "drop-shadow(0 0 10px rgba(139, 92, 246, 0.8))"
+    }
+  },
+  "usage": {
+    "hero": {
+      "background": "cosmic-gradient",
+      "headline": "white",
+      "subtitle": "gray-300", 
+      "cta-primary": "primary-gradient",
+      "cta-secondary": "glass-white"
+    },
+    "navigation": {
+      "background": "rgba(5, 5, 8, 0.8)",
+      "links": "gray-300",
+      "links-hover": "white",
+      "border": "glass-border"
+    },
+    "orbital": {
+      "ring-1": "orbital-gradient-1",
+      "ring-2": "orbital-gradient-2", 
+      "ring-3": "orbital-gradient-3",
+      "glow-filter": "orbital-glow"
+    },
+    "cards": {
+      "background": "glass-white",
+      "background-hover": "glass-white-light",
+      "border": "glass-border",
+      "text": "white",
+      "text-secondary": "gray-300"
+    },
+    "particles": {
+      "colors": ["electric-purple", "neon-blue", "cosmic-purple", "white"],
+      "connections": "electric-purple-20",
+      "glow": "cosmic-glow"
+    }
+  },
+  "breakpoints": {
+    "mobile": "480px",
+    "tablet": "768px", 
+    "laptop": "1024px",
+    "desktop": "1280px",
+    "xl": "1440px"
+  },
+  "accessibility": {
+    "contrast-ratios": {
+      "aa-normal": "4.5:1",
+      "aa-large": "3:1",
+      "aaa-normal": "7:1",
+      "aaa-large": "4.5:1"
+    },
+    "focus-color": "electric-purple",
+    "focus-width": "2px",
+    "focus-offset": "2px"
+  }
+} 
