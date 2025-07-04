@@ -1,6 +1,6 @@
 # Video Assets Guide
 
-This directory contains the cinematic video assets for the Quadrata Passport hero section. These files are essential for the immersive visual experience.
+This directory contains the cinematic video assets for the Sinir Bilim Portalı hero section. These files are essential for the immersive visual experience.
 
 ## 📁 Asset Structure
 
@@ -239,7 +239,7 @@ Background:
 
 ### Attribution
 ```
-Video assets created for Quadrata Passport
+Video assets created for Sinir Bilim Portalı
 License: [Specify your license]
 Source: [If applicable]
 Created: [Date]
