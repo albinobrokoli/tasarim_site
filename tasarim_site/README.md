@@ -1,10 +1,10 @@
-# Quadrata Passport - Cosmic Cinematic Website
+# Sinir Bilim Portalı - Cosmic Cinematic Website
 
-🌌 **Immersive Web3 Identity Protocol Landing Page**
+🌌 **Immersive Neuroscience Research Platform Landing Page**
 
-A stunning cinematic website for Quadrata Passport, featuring orbital elliptical animations, cosmic particle systems, and premium glassmorphism effects inspired by deep space aesthetics.
+A stunning cinematic website for Sinir Bilim Portalı, featuring orbital elliptical animations, cosmic particle systems, and premium glassmorphism effects inspired by deep space aesthetics.
 
-![Quadrata Passport Cosmic Theme](preview.jpg)
+![Sinir Bilim Portalı Cosmic Theme](preview.jpg)
 
 ## ✨ Design Features
 
@@ -16,7 +16,7 @@ A stunning cinematic website for Quadrata Passport, featuring orbital elliptical
 - **Glassmorphism**: Advanced backdrop-blur effects with subtle borders
 
 ### 🌟 Hero Section
-- **Centered Layout**: "DIGITAL IDENTITY, REAL FREEDOM" with dramatic typography
+- **Centered Layout**: "Advanced AI Quantum Cloud Service" with dramatic typography
 - **Orbital Ellipses**: Three rotating elliptical rings with gradient strokes
 - **Glass Card**: Dark translucent card with subtitle and dual CTA buttons
 - **Ambient Glow**: Multiple blur layers creating depth and atmosphere
@@ -55,10 +55,10 @@ Breakpoints:
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/quadrata-cosmic-website.git
+git clone https://github.com/your-org/sinir-bilim-portali-website.git
 
 # Navigate to project
-cd quadrata-cosmic-website
+cd sinir-bilim-portali-website
 
 # Serve locally (Python 3)
 python -m http.server 8000
@@ -72,7 +72,7 @@ open http://localhost:8000
 
 ### File Structure
 ```
-quadrata-cosmic-website/
+sinir-bilim-portali-website/
 ├── index.html          # Main HTML structure
 ├── style.css           # Cosmic styling & animations
 ├── script.js           # Particle system & interactions
@@ -240,13 +240,13 @@ MIT License - see [LICENSE.md](LICENSE.md) for details.
 
 ## 🙋 Support
 
-- **Documentation**: [docs.quadrata.com](https://docs.quadrata.com)
-- **Issues**: [GitHub Issues](https://github.com/your-org/quadrata-cosmic-website/issues)
-- **Community**: [Discord Server](https://discord.gg/quadrata)
-- **Email**: support@quadrata.com
+- **Documentation**: [docs.sinirobilim.com](https://docs.sinirobilim.com)
+- **Issues**: [GitHub Issues](https://github.com/your-org/sinir-bilim-portali-website/issues)
+- **Community**: [Discord Server](https://discord.gg/sinirobilim)
+- **Email**: support@sinirobilim.com
 
 ---
 
-**Built with ❤️ for the Web3 community**
+**Built with ❤️ for the Neuroscience community**
 
-*Quadrata Passport - Digital Identity, Real Freedom* 
+*Sinir Bilim Portalı - Neuroscience Research Platform* 

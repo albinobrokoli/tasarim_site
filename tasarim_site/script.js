@@ -1,5 +1,5 @@
 /**
- * Quadrata Passport - Cosmic Cinematic JavaScript
+ * Sinir Bilim Portalı - Cosmic Cinematic JavaScript
  * Advanced JavaScript for cinematic hero section and interactive elements
  */
 
@@ -272,60 +272,60 @@ class IntegrationController {
     handleChainChange(e) {
         const chain = e.target.value;
         const codeSnippets = {
-            ethereum: `import { QuadrataPassport } from '@quadrata/core'
+            ethereum: `import { SinirBilimAPI } from '@siniribilim/core'
 
-const passport = new QuadrataPassport({
+const neuroscience = new SinirBilimAPI({
   chainId: 1,
   apiKey: 'your-api-key'
 })
 
-// Verify user identity
-const result = await passport.verify(address)
-console.log('Verification:', result)`,
+// Analyze brain data
+const result = await neuroscience.analyze(data)
+console.log('Analysis:', result)`,
 
-            polygon: `import { QuadrataPassport } from '@quadrata/core'
+            polygon: `import { SinirBilimAPI } from '@siniribilim/core'
 
-const passport = new QuadrataPassport({
+const neuroscience = new SinirBilimAPI({
   chainId: 137,
   apiKey: 'your-api-key'
 })
 
-// Fast verification on Polygon
-const result = await passport.verify(address)
-console.log('Verified on Polygon:', result)`,
+// Fast analysis on Polygon
+const result = await neuroscience.analyze(data)
+console.log('Analysis on Polygon:', result)`,
 
-            arbitrum: `import { QuadrataPassport } from '@quadrata/core'
+            arbitrum: `import { SinirBilimAPI } from '@siniribilim/core'
 
-const passport = new QuadrataPassport({
+const neuroscience = new SinirBilimAPI({
   chainId: 42161,
   apiKey: 'your-api-key'
 })
 
-// L2 verification
-const result = await passport.verify(address)
-console.log('Arbitrum verification:', result)`,
+// L2 brain analysis
+const result = await neuroscience.analyze(data)
+console.log('Arbitrum analysis:', result)`,
 
-            optimism: `import { QuadrataPassport } from '@quadrata/core'
+            optimism: `import { SinirBilimAPI } from '@siniribilim/core'
 
-const passport = new QuadrataPassport({
+const neuroscience = new SinirBilimAPI({
   chainId: 10,
   apiKey: 'your-api-key'
 })
 
-// Optimistic verification
-const result = await passport.verify(address)
+// Optimistic analysis
+const result = await neuroscience.analyze(data)
 console.log('Optimism result:', result)`,
 
-            avalanche: `import { QuadrataPassport } from '@quadrata/core'
+            avalanche: `import { SinirBilimAPI } from '@siniribilim/core'
 
-const passport = new QuadrataPassport({
+const neuroscience = new SinirBilimAPI({
   chainId: 43114,
   apiKey: 'your-api-key'
 })
 
-// Avalanche network verification
-const result = await passport.verify(address)
-console.log('Avalanche verified:', result)`
+// Avalanche network analysis
+const result = await neuroscience.analyze(data)
+console.log('Avalanche analysis:', result)`
         };
         
         if (chain && codeSnippets[chain]) {
@@ -485,7 +485,7 @@ class ErrorHandler {
 
 // Initialize everything when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🚀 Quadrata Passport - Cosmic Theme Initialized');
+            console.log('🚀 Sinir Bilim Portalı - Cosmic Theme Initialized');
     
     try {
         // Initialize core systems
@@ -538,7 +538,7 @@ function getDevicePixelRatio() {
 }
 
 // Export for external use
-window.QuadrataTheme = {
+    window.SinirBilimTheme = {
     performance,
     ParticleSystem,
     SmoothScroll,
